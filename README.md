@@ -2,5 +2,9 @@
 ## Install
 
 ```
-pip install -r requirements.txt
+pip install -e .
+export FLASK_APP=scrumpy
+export FLASK_ENV=development
+flask init-db
+flask run
 ```

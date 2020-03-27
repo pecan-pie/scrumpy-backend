@@ -2,7 +2,7 @@ import json
 
 from flask import Flask
 from flask_restful import reqparse, abort, Api, Resource
-from app import models
+from scrumpy import models
 from flask import jsonify
 
 

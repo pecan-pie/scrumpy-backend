@@ -1,6 +1,6 @@
 
 from flask import current_app as app
-from app import db
+from scrumpy import db
 
 # https://flask-sqlalchemy.palletsprojects.com/en/2.x/quickstart/#a-minimal-application
 
